@@ -1,3 +1,5 @@
+local opt = vim.opt
+
 opt.mouse               = 'a'
 
 opt.syntax              = 'on'
