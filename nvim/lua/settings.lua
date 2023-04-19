@@ -8,7 +8,10 @@ opt.filetype.plugin     = 'on'
 
 opt.colorcolumn         = '60'
 opt.cursorline          = true
+opt.cursorcolumn        = true
+
 opt.number              = true
 opt.relativenumber      = true
+
 opt.hlsearch            = true
 opt.incsearch           = true
