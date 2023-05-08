@@ -15,3 +15,6 @@ opt.relativenumber      = true
 
 opt.hlsearch            = true
 opt.incsearch           = true
+
+-- Автодополнение (встроенное в Neovim)
+-- opt.completeopt = 'menuone,noselect'
