@@ -14,4 +14,6 @@ function tm(key, command)
 	map('t', key, command, {noremap = true})
 end
 
-nm('<C-b>', '<cmd>w | ! clear; make run <CR>')
+-- nm('<C-b>', '<cmd>w | ! clear; make run <CR>')
+nm('<C-b>', '<cmd>lus pring("testRaa") <CR>')
+
