@@ -15,5 +15,5 @@ function tm(key, command)
 end
 
 -- nm('<C-b>', '<cmd>w | ! clear; make run <CR>')
-nm('<M-r>', '<cmd>lua print("testRaa") <CR>')
+nm('<C-y>', '<cmd>lua print("testRaa") <CR>')
 
