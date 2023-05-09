@@ -14,6 +14,5 @@ function tm(key, command)
 	map('t', key, command, {noremap = true})
 end
 
--- nm('<C-b>', '<cmd>w | ! clear; make run <CR>')
-nm('<C-y>', '<cmd>lua print("testRaa") <CR>')
+nm('<C-y>', '<cmd>w | ! clear; make run <CR>')
 
