@@ -12,6 +12,9 @@ return require('packer').startup( function(use)
 		requires = { 'kyazdani42/nvim-web-devicons',
 				       opt = true }
 	}
+	
+	use 'neovim/nvim-lspconfig'
+	use 'simrat39/rust-tools.nvim'
 
 end)
 --	config = {

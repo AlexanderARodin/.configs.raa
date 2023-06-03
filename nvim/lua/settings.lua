@@ -1,5 +1,6 @@
 local opt = vim.opt
 
+opt.encoding				= 'utf-8'
 opt.mouse               = 'a'
 
 opt.syntax              = 'on'
