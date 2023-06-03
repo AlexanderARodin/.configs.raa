@@ -14,5 +14,12 @@ function tm(key, command)
 	map('t', key, command, {noremap = true})
 end
 
+-- main key binds
+map('i', 'jk', '<ESC>', {})
+map('n', '<C-n>', [[:NvimTreeToggle<CR>]], {})
+
+
+
+-- some custom automatization
 nm('<C-y>', '<cmd>w | ! clear; make run <CR>')
 
